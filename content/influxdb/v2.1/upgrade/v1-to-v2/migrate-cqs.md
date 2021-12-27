@@ -135,7 +135,7 @@ To write to a measurement different than the measurement queried, use
 [`set()`](/{{< latest "flux" >}}/stdlib/universe/set/) or
 [`map()`](/{{< latest "flux" >}}/stdlib/universe/map/)
 to change the measurement name.
-Use the `to()` function to specify the bucket to write results to.
+Use the [`to()`](/{{< latest "flux" >}}/stdlib/universe/to/) function to specify the bucket to write results to.
 
 ###### InfluxQL
 ```sql
